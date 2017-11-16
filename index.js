@@ -7,10 +7,12 @@ function printBadges(employeeNames) {
   return employeeNames;
 }
 function tailsNeverFails(){
-  
+
   let count=0;
   while (Math.random() >= 0.5) {
     count=count +1;
     }
-    return console.log(`You got ${count} tails in a row!`);
+
+    console.log(`You got ${count} tails in a row!`);
+    return 
 }
